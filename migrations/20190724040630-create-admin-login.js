@@ -14,6 +14,9 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
+      roll: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
